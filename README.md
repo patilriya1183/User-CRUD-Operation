@@ -85,6 +85,7 @@ src
  │
  ├── service
  │     └── UserService.java
+ │     └── UserServiceImp.java
  │
  ├── entity
  │     └── User.java
@@ -152,6 +153,3 @@ http://localhost:5173
 
 GitHub
 [https://github.com/patilriya1183](https://github.com/patilriya1183)]
-
-
-💡 If you want, I can also give you a **🔥 “developer-level” README with badges, project images, and demo GIF** so your repository looks **like a professional portfolio project**.
