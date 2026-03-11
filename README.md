@@ -84,8 +84,8 @@ src
  │     └── UserController.java
  │
  ├── service
- │     └── UserService.java
- │     └── UserServiceImp.java
+ │     ├── UserService.java
+ │     ├── UserServiceImp.java
  │
  ├── entity
  │     └── User.java
