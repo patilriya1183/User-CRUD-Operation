@@ -1,0 +1,127 @@
+.mainCardComponent{
+    padding:10px;
+}
+
+.mainCardContainerRow{
+    display:flex;
+    flex-direction: column;
+}
+
+.userCardsContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #94b0b7;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.mainHead{
+    background-color:#4A707A;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-size: 35px;
+}
+
+.userCard-MainCard{
+    width: 100%;
+    height: 300px;
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+
+}
+
+.headingCard{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+    border-bottom:1px solid #ddd;
+    padding-bottom:10px;
+}
+
+.userIcon{
+    font-size:28px;
+    color:#4A707A;
+}
+
+.containtCard{
+    margin-top:10px;
+    padding: 8px;
+}
+
+.containtCard p{
+    margin:6px 0;
+    font-size: 18px;
+}
+
+.buttonCard{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+}
+
+.editBtn{
+    width: 100px;
+    background:#7697A0;
+    border:none;
+    padding:6px 12px;
+    color:white;
+    border-radius:5px;
+}
+
+.deleteBtn{
+    width: 100px;
+    background:#e74c3c;
+    border:none;
+    padding:6px 12px;
+    color:white;
+    border-radius:5px;
+}
+
+.newUserButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.newUserBtn{
+    width: 150px;
+    background:#4A707A;
+    border:none;
+    padding:12px;
+    color:white;
+    font-size: 15px;
+    border-radius:5px;
+}
+
+@media (min-width : 1024px) {
+
+.userCardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;          /* ADD THIS */
+    justify-content: flex-start;
+    gap: 20px;                /* ADD THIS for spacing */
+    background-color: #94b0b7;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.userCard-MainCard{
+    width:350px;
+    margin-bottom: 0;
+    height: 300px;
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+}

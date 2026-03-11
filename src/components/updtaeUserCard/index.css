@@ -1,0 +1,129 @@
+
+
+.mainUpdateContainerRow{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.userUpdateContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #94b0b7;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.userCard-UpdateCard{
+    margin-top: 20px;
+    width: 100%;
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+.containtUpdateCard{
+    margin-top:10px;
+    padding: 10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.containtUpdateCard input{
+    width:100%;
+    padding:8px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+
+.containtUpdateCard:active input,
+.containtUpdateCard input:focus{
+    border-color:#4A707A;
+    outline:none;
+}
+
+.containtUpdateCard p{
+    margin:6px 0;
+    font-size: 18px;
+}
+
+.buttonUpdateCard{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+    padding: 10px;
+}
+
+.backBtn{
+    width: 100px;
+    background:#7697A0;
+    border:none;
+    padding:6px 12px;
+    color:white;
+    border-radius:5px;
+}
+
+.updateBtn{
+    width: 100px;
+    background: #7697A0;
+    border:none;
+    padding:6px 12px;
+    color:white;
+    border-radius:5px;
+}
+
+.newUserButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.newUserBtn{
+    width: 150px;
+    background:#4A707A;
+    border:none;
+    padding:12px;
+    color:white;
+    font-size: 15px;
+    border-radius:5px;
+}
+
+@media (min-width : 1024px) {
+    
+.mainUpdateContainerRow{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userUpdateContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userCard-UpdateCard{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.backBtn{
+    width: 150px;
+    padding:8px 12px;
+    font-size: 15px;
+}
+
+.updateBtn{
+    width: 150px;
+    padding:8px 12px;
+    font-size: 15px;
+}
+
+}
