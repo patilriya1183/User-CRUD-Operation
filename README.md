@@ -1,16 +1,94 @@
-# React + Vite
+User CRUD Operation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple User Management CRUD Application built using Spring Boot (Backend) and React.js (Frontend).
+This project demonstrates full CRUD functionality (Create, Read, Update, Delete) using REST APIs and a modern frontend interface.
 
-Currently, two official plugins are available:
+Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project allows users to manage employee or user records through a simple and responsive interface.
 
-## React Compiler
+The application performs the following operations:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Create a new user
 
-## Expanding the ESLint configuration
+View all users
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Update user details
+
+Delete existing users
+
+The backend provides REST APIs, and the frontend consumes those APIs using the Fetch API.
+
+CRUD applications are commonly used to learn full-stack development because they demonstrate how applications interact with databases and APIs.
+
+Tech Stack
+Frontend
+
+React.js
+
+React Router
+
+CSS
+
+Fetch API
+
+Backend
+
+Java
+
+Spring Boot
+
+Spring Web
+
+REST API
+
+Tools
+
+VS Code
+
+Postman
+
+Git & GitHub
+
+Maven
+
+MySQL
+
+Features
+
+View all users in card layout
+
+Create new user
+
+Update user information
+
+Delete user
+
+Responsive UI
+
+API integration between React and Spring Boot
+
+Project Structure
+Frontend (React)
+src
+ ├── components
+ │     ├── MainCardComponent
+ │     ├── CreateUser
+ │     ├── UpdateUser
+ │
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+Backend (Spring Boot)
+src
+ ├── controller
+ │     └── UserController.java
+ │
+ ├── service
+ │     └── UserService.java
+ │
+ ├── entity
+ │     └── User.java
+ │
+ └── repository
+       └── UserRepository.java
